@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+Form-Vite-React-TS-Tailwind
+Formulário de Newsletter com Validação Este projeto é um formulário de inscrição para uma Newsletter, desenvolvido com React, TypeScript, Vite e Tailwind CSS. O formulário inclui validação de dados e feedback visual para o usuário em caso de erros.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+React: Biblioteca JavaScript para construção de interfaces de usuário. TypeScript: Superset do JavaScript que adiciona tipagem estática ao código. Vite: Ferramenta rápida para desenvolvimento de aplicações frontend. Tailwind CSS: Framework CSS para construção de interfaces rápidas e responsivas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funcionalidades
 
-## Expanding the ESLint configuration
+Formulário de inscrição com campos de nome, e-mail e checkbox para aceitar os termos. Validação dos campos:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O nome deve ser preenchido. O e-mail deve ser válido. O checkbox de aceite dos termos deve ser marcado. Feedback visual em tempo real para erros de validação. Reset automático do formulário após envio bem-sucedido.
 
-- Configure the top-level `parserOptions` property like this:
+Instalação e Execução Siga os passos abaixo para rodar o projeto localmente.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Pré-requisitos Node.js instalado na máquina. Um gerenciador de pacotes como npm ou yarn.
