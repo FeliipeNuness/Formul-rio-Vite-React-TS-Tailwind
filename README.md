@@ -1,4 +1,3 @@
-Form-Vite-React-TS-Tailwind
 Formulário de Newsletter com Validação Este projeto é um formulário de inscrição para uma Newsletter, desenvolvido com React, TypeScript, Vite e Tailwind CSS. O formulário inclui validação de dados e feedback visual para o usuário em caso de erros.
 
 Tecnologias Utilizadas
